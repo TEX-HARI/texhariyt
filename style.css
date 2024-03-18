@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    padding-top: 10px;
+}
+
+.section-one__desc,
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    padding-top: 10px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius:10px ;
+}
+
+.section-one__taital {
+    font-size: 48px;
+}
+
+.section-one__desc {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.section-one__contact {
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+
+.section-one__contact:hover {
+    background-color: blue;
+    color: white;
+}
+
+.section-two {
+    padding-bottom: 20px;
+}
+
+
+.section-five {
+
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+.section-five a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+
+.section-three {
+    background-color: #514ECC;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 200px;
+    vertical-align:top;
+    display: inline-block;
+}
+
+
+.section-four {
+
+    background-color: #CC5E14;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 200px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 10px;
+
+
+}
+
+.section-five{
+   margin-top: 20px;
+}
+
+.section-three__desc {
+    list-style: none;
+}
+
+.section-four__desc {
+    list-style: none;
+}
